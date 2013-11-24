@@ -1,27 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.droidcon.whereissmartwatch"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="abalufaske.where.is"
+    android:versionCode="8"
+    android:versionName="1.1" >
 
     <uses-sdk
-        android:minSdkVersion="4"
-        android:targetSdkVersion="4" />
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <permission
+        android:name="abalufaske.where.is.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.sonyericsson.extras.liveware.aef.EXTENSION_PERMISSION" />
+    
+    <uses-permission android:name="abalufaske.where.is.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!-- External storage for caching. -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- My Location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
+        <!-- You must insert your own Google Maps for Android API v2 key in here. -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCmh25F0gi-V6LoFV3U5v_j0ecgxsPPATE" />
+
         <activity
-            android:name="com.droidcon.whereissmartwatch.MainActivity"
-            android:label="@string/app_name" >
+            android:name="abalufaske.where.is.InitActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="abalufaske.where.is.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="abalufaske.where.is.WhereisWidgetService"
+            android:label="@string/widgetname" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+        
+           <service android:name=".SmartWatchService" />
+
+        <receiver
+            android:name=".SmartWatchReceiver"
+            android:permission="com.sonyericsson.extras.liveware.aef.HOSTAPP_PERMISSION" >
+            <intent-filter>
+
+                <!-- Generic extension intents. -->
+                <action android:name="com.sonyericsson.extras.liveware.aef.registration.EXTENSION_REGISTER_REQUEST" />
+                <action android:name="com.sonyericsson.extras.liveware.aef.registration.ACCESSORY_CONNECTION" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+
+                <!-- Notification intents -->
+                <action android:name="com.sonyericsson.extras.liveware.aef.notification.VIEW_EVENT_DETAIL" />
+                <action android:name="com.sonyericsson.extras.liveware.aef.notification.REFRESH_REQUEST" />
+
+                <!-- Widget intents -->
+                <action android:name="com.sonyericsson.extras.aef.widget.START_REFRESH_IMAGE_REQUEST" />
+                <action android:name="com.sonyericsson.extras.aef.widget.STOP_REFRESH_IMAGE_REQUEST" />
+                <action android:name="com.sonyericsson.extras.aef.widget.ONTOUCH" />
+                <action android:name="com.sonyericsson.extras.liveware.extension.util.widget.scheduled.refresh" />
+
+                <!-- Control intents -->
+                <action android:name="com.sonyericsson.extras.aef.control.START" />
+                <action android:name="com.sonyericsson.extras.aef.control.STOP" />
+                <action android:name="com.sonyericsson.extras.aef.control.PAUSE" />
+                <action android:name="com.sonyericsson.extras.aef.control.RESUME" />
+                <action android:name="com.sonyericsson.extras.aef.control.ERROR" />
+                <action android:name="com.sonyericsson.extras.aef.control.KEY_EVENT" />
+                <action android:name="com.sonyericsson.extras.aef.control.TOUCH_EVENT" />
+                <action android:name="com.sonyericsson.extras.aef.control.SWIPE_EVENT" />
+                <action android:name="com.sonyericsson.extras.aef.control.OBJECT_CLICK_EVENT" />
+                <action android:name="com.sonyericsson.extras.aef.control.LIST_REFERESH_REQUEST" />
+                <action android:name="com.sonyericsson.extras.aef.control.LIST_REQUEST_ITEM" />
+                <action android:name="com.sonyericsson.extras.aef.control.LIST_ITEM_CLICK" />
+                <action android:name="com.sonyericsson.extras.aef.control.LIST_ITEM_SELECTED" />
+                <action android:name="com.sonyericsson.extras.aef.control.MENU_ITEM_SELECTED" />
+                <action android:name="com.sonyericsson.extras.aef.control.MENU_SHOW" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
