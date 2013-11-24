@@ -172,7 +172,7 @@ public class GalleryTestControl extends ManagedControlExtension {
     
     protected ControlListItem createControlListItem(int position) {
     	
-    	String parking = "";
+    	String parking = "Location "+position ;
     	
     	if (position == 0) {
     		ParkingDB mParkingDB = new ParkingDB(mContext);
