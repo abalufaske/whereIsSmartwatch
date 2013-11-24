@@ -86,10 +86,7 @@ public class MainActivity extends android.support.v4.app.FragmentActivity
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		Bundle bundle = getIntent().getExtras();
-		boolean isRedirected = bundle.getBoolean("smartWatch");
-		
-		startLocationListener(isRedirected);
+		startLocationListener();
 		
 		if (mLocationManager == null) {
 			mLocationManager = (LocationManager) getApplicationContext()
@@ -162,20 +159,16 @@ public class MainActivity extends android.support.v4.app.FragmentActivity
 
 	}
 	
-	private LocationListener locationListener;
-	private LocationManager locationManager;
+	private static LocationListener locationListener;
+	private static LocationManager locationManager;
 	
-	private void startLocationListener(boolean saveLocationToDB) {
+	private void startLocationListener() {
 		
 		locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
 		
 		locationListener = new LocationListener() {
 			
-		    public void onLocationChanged(Location location) {
-		      // Called when a new location is found by the network location provider.
-//		      updateLocation(location);
-		      // TODO
-		    }
+		    public void onLocationChanged(Location location) {}
 		    
 		    public void onStatusChanged(String provider, int status, Bundle extras) {}
 		    
@@ -192,8 +185,10 @@ public class MainActivity extends android.support.v4.app.FragmentActivity
 	protected void onDestroy() {
 		super.onDestroy();
 		
-		locationManager.removeUpdates(locationListener);
-		locationManager = null;
+		if (locationManager != null) {
+			locationManager.removeUpdates(locationListener);
+			locationManager = null;
+		}
 	}
 
 	@Override
@@ -830,31 +825,58 @@ public class MainActivity extends android.support.v4.app.FragmentActivity
 
 	}
 	
-	public static void savePosition(Context mContext, int position) {
+	public static void saveLocation(final Context mContext, final int position) {
 		
 		try {
 			
 			if (mMap != null) {
 				
-				Toast.makeText(mContext, "Location is Saved", Toast.LENGTH_SHORT).show();
+				locationManager = (LocationManager) mContext.getSystemService(Context.LOCATION_SERVICE);
 				
-				ItemsDB mItemDB = new ItemsDB(mContext);
-				mItemDB.setLat(mListPlaces.get(position).getId(),
-						String.valueOf(mMap.getMyLocation().getLongitude()));
-				mItemDB.setLong(mListPlaces.get(position).getId(),
-						String.valueOf(mMap.getMyLocation().getLatitude()));
-				mItemDB.setLast(mListPlaces.get(position).getId(), 1);
+				locationListener = new LocationListener() {
+					
+				    public void onLocationChanged(Location location) {
+				    	
+				    	// Save Location
+				    	saveLocationToDb(mContext, position);
+				    }
+				    
+				    public void onStatusChanged(String provider, int status, Bundle extras) {}
+				    
+				    public void onProviderEnabled(String provider) {}
+				    
+				    public void onProviderDisabled(String provider) {}
+				  };
 				
-				mMap.clear();
-//				android.os.Process.killProcess(android.os.Process.myPid());
+				// Register the listener with the Location Manager to receive location updates
+				locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, (long) 0, (long) 0, locationListener);
+				
 			} else {
-				
 				Toast.makeText(mContext, "Map is Null", Toast.LENGTH_SHORT).show();
 			}
 			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+	
+	private static void saveLocationToDb(Context mContext, int position) {
+		
+		Toast.makeText(mContext, "Location is Saved", Toast.LENGTH_SHORT).show();
+		
+		ItemsDB mItemDB = new ItemsDB(mContext);
+		mItemDB.setLat(mListPlaces.get(position).getId(),
+				String.valueOf(mMap.getMyLocation().getLongitude()));
+		mItemDB.setLong(mListPlaces.get(position).getId(),
+				String.valueOf(mMap.getMyLocation().getLatitude()));
+		mItemDB.setLast(mListPlaces.get(position).getId(), 1);
+		
+		mMap.clear();
+		
+		locationManager.removeUpdates(locationListener);
+		locationManager = null;
+		
+		android.os.Process.killProcess(android.os.Process.myPid());
 	}
 	
 }

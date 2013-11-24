@@ -83,10 +83,9 @@ public class InitActivity extends Activity {
 					   }
 
 				 	myDbHelper.close();
-					Intent startIntent = new Intent(InitActivity.this,
-							MainActivity.class);
-					startIntent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-					startActivity(startIntent);
+				
+			startActivity(new Intent(InitActivity.this,
+			MainActivity.class));
 			finish();
 			}
 			}

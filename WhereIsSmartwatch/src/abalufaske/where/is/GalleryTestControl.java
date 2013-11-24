@@ -151,7 +151,7 @@ public class GalleryTestControl extends ManagedControlExtension {
 						
 						@Override
 						public void run() {
-							MainActivity.savePosition(mContext, position-1);
+							MainActivity.saveLocation(mContext, position-1);
 						}
 					});
 				}
@@ -165,7 +165,7 @@ public class GalleryTestControl extends ManagedControlExtension {
     
     private void lunchApplication(Context mContext) {
     	
-    	Intent intent = new Intent(mContext, MainActivity.class);
+    	Intent intent = new Intent(mContext, InitActivity.class);
     	intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         mContext.startActivity(intent);
     }
