@@ -13,35 +13,7 @@
         android:background="@android:color/white"
         android:orientation="vertical" >
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10px"
-            android:background="#0a22de"
-            android:padding="5px" >
-
-            <LinearLayout
-                android:id="@+id/testButton1"
-                android:layout_width="100px"
-                android:layout_height="50px"
-                android:clickable="true"
-                android:gravity="center"
-                android:onClick="onClickButton"
-                android:layout_alignParentLeft="true"
-                android:background="#FFF" >
-
-                <TextView
-                    android:id="@+id/mButtonText1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:textColor="#000"
-                    android:text="@string/Save"                  
-                    android:textSize="@dimen/smart_watch_2_text_size_large" />
-            </LinearLayout>
-
-
-        </RelativeLayout>
+    
 
         <TextView
             android:id="@+id/title"

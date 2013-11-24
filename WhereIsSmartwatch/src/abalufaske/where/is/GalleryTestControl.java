@@ -196,15 +196,9 @@ public class GalleryTestControl extends ManagedControlExtension {
         bodyBundle.putInt(Control.Intents.EXTRA_LAYOUT_REFERENCE, R.id.body);
         bodyBundle.putString(Control.Intents.EXTRA_TEXT, parking);
         
-        // Header data
-        Bundle button1Bundle = new Bundle();
-        button1Bundle.putInt(Control.Intents.EXTRA_LAYOUT_REFERENCE, R.id.mButtonText1);
-        button1Bundle.putString(Control.Intents.EXTRA_TEXT, mButtonContent[position]);
-        
-        item.layoutData = new Bundle[4];
+        item.layoutData = new Bundle[2];
         item.layoutData[0] = headerBundle;
         item.layoutData[1] = bodyBundle;
-        item.layoutData[2] = button1Bundle;
         
         return item;
     }
