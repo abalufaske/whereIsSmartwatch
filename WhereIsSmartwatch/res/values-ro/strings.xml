@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">"Unde este ...?"</string>
+    <string name="hello_world">"Bună ziua lume!"</string>
+    <string name="menu_settings">"Setări"</string>
+    <string name="Save">"Salvați Pos."</string>
+    <string name="GoTo">"Mergeți la"</string>
+    <string name="Parking">"Parcare"</string>
+    <string name="rename">"Redenumire"</string>
+    <string name="hybrid">"Hibrid"</string>
+    <string name="normal">"Normal"</string>
+    <string name="satellite">"Satelit"</string>
+    <string name="terrain">"Teren"</string>
+    <string name="map_not_ready">"Harta nu este disponibilă încă"</string>
+    <string name="nogps">"GPS-ul este oprit, locația nu este corectă"</string>
+    <string name="nolocationprovider">"Locația dvs. nu este disponibilă, verificați starea conexiunii"</string>
+    <string name="ok">"Salvare"</string>
+    <string name="cancel">"Anulare"</string>
+    <string name="setName">"Introduceți noul nume"</string>
+    <string name="onFoot">"Pe jos"</string>
+    <string name="driving">"Cu mașina"</string>
+    <string name="publicTransport">"Transportul public"</string>
+    <string name="choosetravel">"Alegeți modul de călătorie"</string>
+    <string name="parkingDialog">"Locul de parcare"</string>
+    <string name="widgetname">"Widget parcare"</string>
+    
+     <string name="configuration_text">Where is settings</string>
+        <string name="extension_name">Where is ? Smartwatch</string>
+        
+    <string name="colors">"Culoarea"</string>
+    <string name="FloorParking">"Etajul"</string>
+    <string name="NumberParking">"Numărul"</string>
+    <string name="SectionParking">"Zona"</string> 
+    <string name="NotesParking">"Observații"</string>    
+    
+    
+    <string name="white">"Alb"</string>
+    <string name="red">"Roșu"</string>
+    <string name="green">"Verde"</string>
+    <string name="blue">"Albastru"</string>
+    <string name="yellow">"Galben"</string>
+    <string name="orange">"Portocaliu"</string>    
+    <string name="purple">"Violet"</string>
+    <string name="pink">"Roz"</string>
+    <string name="brown">"Maro"</string>       
+    
+    
+    <string name="sharesubject">"Unde este ... ?"</string>       
+    <string name="sharevia">"Împărtășește cu"</string>       
+    <string name="sharestring1">"Vreau să împărtășesc locația "</string>       
+    <string name="sharestring2">" cu tine "</string> 
+    <string name="sharestring3">" folosind această aplicație: "</string>       
+    
+    
+    
+    <string-array name="layers_array">
+   <item>@string/normal</item>
+    <item>@string/hybrid</item>
+    <item>@string/satellite</item>
+    <item>@string/terrain</item>
+  </string-array>
+</resources>

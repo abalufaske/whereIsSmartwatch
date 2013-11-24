@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">"Где ...?"</string>
+    <string name="hello_world">"Привет мир!"</string>
+    <string name="menu_settings">"Настройки"</string>
+    <string name="Save">"Сохранить Поз."</string>
+    <string name="GoTo">"Идти"</string>
+    <string name="Parking">"Парковка"</string>
+    <string name="rename">"Переименовать"</string>
+    <string name="hybrid">"Гибридный"</string>
+    <string name="normal">"Нормальный"</string>
+    <string name="satellite">"Спутник"</string>
+    <string name="terrain">"Местность"</string>
+    <string name="map_not_ready">"Карта еще не готова"</string>
+    <string name="nogps">"Ваш GPS выключен, местоположение не является точным"</string>
+    <string name="nolocationprovider">"Ваше местоположение не доступно, проверить состояние подключения"</string>
+    <string name="ok">"Экономить"</string>
+    <string name="cancel">"Отменить"</string>
+    <string name="setName">"Установить новое имя"</string>
+    <string name="onFoot">"Пешком"</string>
+    <string name="driving">"Вождение"</string>
+    <string name="publicTransport">"Общественный транспорт"</string>
+    <string name="choosetravel">"Выберите режим движения"</string>
+    <string name="parkingDialog">"Парковочное место"</string>
+    <string name="widgetname">"Парковка Виджет"</string>
+     <string name="configuration_text">Where is settings</string>
+        <string name="extension_name">Where is ? Smartwatch</string>
+        
+    
+    <string name="colors">"Цвет"</string>
+    <string name="FloorParking">"Этаж"</string>
+    <string name="NumberParking">"Число"</string>
+    <string name="SectionParking">"Раздел"</string> 
+    <string name="NotesParking">"Примечания"</string>    
+    
+    
+    <string name="white">"Белый"</string>
+    <string name="red">"Красный"</string>
+    <string name="green">"Зеленый"</string>
+    <string name="blue">"Синий"</string>
+    <string name="yellow">"Желтый"</string>
+    <string name="orange">"Оранжевый"</string>    
+    <string name="purple">"Фиолетовый"</string>
+    <string name="pink">"Розовый"</string>
+    <string name="brown">"Коричневый"</string>       
+    
+    
+    <string name="sharesubject">"Где ... ?"</string>       
+    <string name="sharevia">"Поделитесь с"</string>       
+    <string name="sharestring1">"Я хочу поделиться расположение "</string>       
+    <string name="sharestring2">" с вами "</string> 
+    <string name="sharestring3">" с этим приложением: "</string>       
+    
+    
+    
+    <string-array name="layers_array">
+    <item>@string/normal</item>
+    <item>@string/hybrid</item>
+    <item>@string/satellite</item>
+    <item>@string/terrain</item>
+  </string-array>
+</resources>

@@ -1,0 +1,61 @@
+<resources>
+
+    <string name="app_name">"Onde está ... ?"</string>
+    <string name="menu_settings">"Especificaçöes"</string>
+    <string name="Save">"Salve Pos"</string>
+    <string name="GoTo">"ir"</string>
+    <string name="Parking">"Estacionamento"</string>
+    <string name="rename">"Trocar nome"</string>
+    <string name="hybrid">"Híbrido"</string>
+    <string name="normal">"Normal"</string>
+    <string name="satellite">"Satélite"</string>
+    <string name="terrain">"Terreno"</string>
+    <string name="map_not_ready">"O mapa não está pronto"</string>
+    <string name="nogps">"O GPS off, a localização não é precisa"</string>
+    <string name="nolocationprovider">"Sua localização não estiver disponível, verifique o status de conectividade"</string>
+    <string name="ok">"Salvar"</string>
+    <string name="cancel">"Cancelar"</string>
+    <string name="setName">"Definir o novo nome"</string>
+    <string name="onFoot">"Andar"</string>
+    <string name="driving">"Condução"</string>
+    <string name="publicTransport">"O transporte público"</string>
+    <string name="choosetravel">"Escolha o modo de viajar"</string>
+    <string name="parkingDialog">"Estacionamento"</string>
+    <string name="widgetname">"Widget estacionamento"</string>
+     <string name="configuration_text">Where is settings</string>
+        <string name="extension_name">Where is ? Smartwatch</string>
+        
+    
+    <string name="colors">"Color"</string>
+    <string name="FloorParking">"Piso"</string>
+    <string name="NumberParking">"Número"</string>
+    <string name="SectionParking">"Secao"</string> 
+    <string name="NotesParking">"Notas"</string>    
+    
+    
+    <string name="white">"Branco"</string>
+    <string name="red">"vermelho"</string>
+    <string name="green">"verde "</string>
+    <string name="blue">"Azul"</string>
+    <string name="yellow">"Amarelo"</string>
+    <string name="orange">"Laranja"</string>    
+    <string name="purple">"Roxo"</string>
+    <string name="pink">"Rosa"</string>
+    <string name="brown">"Marrom"</string>
+    
+    
+                    
+    <string name="sharesubject">"Onde está ... ?"</string>       
+    <string name="sharevia">"Compartilhe com"</string>       
+    <string name="sharestring1">"Quero compartilhar a localização do "</string>       
+    <string name="sharestring2">" com você "</string> 
+    <string name="sharestring3">" com este app:"</string>     
+    
+    
+    <string-array name="layers_array">
+    <item>@string/normal</item>
+    <item>@string/hybrid</item>
+    <item>@string/satellite</item>
+    <item>@string/terrain</item>
+  </string-array>
+</resources>

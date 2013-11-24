@@ -1,0 +1,61 @@
+<resources>
+
+    <string name="app_name">"Non dago ...?"</string>
+    <string name="menu_settings">"Ezarpenak"</string>
+    <string name="Save">"Gorde Pos"</string>
+    <string name="GoTo">"joan"</string>
+    <string name="Parking">"Parking"</string>
+    <string name="rename">"Berrizendatu"</string>
+    <string name="hybrid">"Hibridoak"</string>
+    <string name="normal">"Normal"</string>
+    <string name="satellite">"Satelitea"</string>
+    <string name="terrain">"Beheko"</string>
+    <string name="map_not_ready">"Mapa ez dago prest"</string>
+    <string name="nogps">"GPS da off, kokapena ez da zehatza"</string>
+    <string name="nolocationprovider">"Bere kokapena ez dago erabilgarri, konektibitate egoera egiaztatu"</string>
+    <string name="ok">"Save"</string>
+    <string name="cancel">"Utzi"</string>
+    <string name="setName">"Ezarri izen berria"</string>
+    <string name="onFoot">"Walk"</string>
+    <string name="driving">"Gidatzeko"</string>
+    <string name="publicTransport">"Garraio publikoa"</string>
+    <string name="choosetravel">"Aukeratu bidaiatzeko modua"</string>
+    <string name="parkingDialog">"Parking"</string>
+    <string name="widgetname">"Parking Widget"</string>
+    
+     <string name="configuration_text">Where is settings</string>
+        <string name="extension_name">Where is ? Smartwatch</string>
+        
+    <string name="colors">"Color"</string>
+    <string name="FloorParking">"Solairua"</string>
+    <string name="NumberParking">"Zenbakia"</string>
+    <string name="SectionParking">"Artikulua"</string> 
+    <string name="NotesParking">"Oharrak"</string>    
+    
+    
+    <string name="white">"Txuria"</string>
+    <string name="red">"Gorria"</string>
+    <string name="green">"Berdea"</string>
+    <string name="blue">"Urdina"</string>
+    <string name="yellow">"Horia"</string>
+    <string name="orange">"Laranja"</string>    
+    <string name="purple">"Morea"</string>
+    <string name="pink">"Arrosa"</string>
+    <string name="brown">"Marroia"</string>
+    
+    
+                
+    <string name="sharesubject">"Non dago ...?"</string>       
+    <string name="sharevia">"kuotarekin"</string>       
+    <string name="sharestring1">"Kokapena partekatu nahi nuke "</string>       
+    <string name="sharestring2">" zurekin "</string> 
+    <string name="sharestring3">" Aplikazio honi esker:"</string>       
+    
+    
+    <string-array name="layers_array">
+    <item>@string/normal</item>
+    <item>@string/hybrid</item>
+    <item>@string/satellite</item>
+    <item>@string/terrain</item>
+  </string-array>
+</resources>

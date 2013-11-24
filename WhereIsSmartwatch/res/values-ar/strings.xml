@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">"أين هو ...؟"</string>
+    <string name="hello_world">"مرحبا العالم!"</string>
+    <string name="menu_settings">"إعدادات"</string>
+    <string name="Save">"حفظ نقاط البيع."</string>
+    <string name="GoTo">"الذهاب"</string>
+    <string name="Parking">"موقف سيارات"</string>
+    <string name="rename">"إعادة تسمية"</string>
+    <string name="hybrid">"هجين"</string>
+    <string name="normal">"طبيعي"</string>
+    <string name="satellite">"قمر"</string>
+    <string name="terrain">"أرض"</string>
+    <string name="map_not_ready">"الخريطة ليست مستعدة بعد"</string>
+    <string name="nogps">"GPS الخاص بك هو خارج، الموقع ليست دقيقة"</string>
+    <string name="nolocationprovider">"موقعك غير متوفرة، والتحقق من حالة الاتصال الخاصة بك"</string>
+    <string name="ok">"حفظ"</string>
+    <string name="cancel">"إلغاء"</string>
+    <string name="setName">"تعيين اسم جديد"</string>
+    <string name="onFoot">"سيرا على الأقدام"</string>
+    <string name="driving">"قيادة"</string>
+    <string name="publicTransport">"وسائل النقل العام"</string>
+    <string name="choosetravel">"اختيار وسيلة السفر"</string>
+    <string name="parkingDialog">"مكان وقوف السيارات"</string>
+    <string name="widgetname">"وقوف السيارات القطعة"</string>
+    
+     <string name="configuration_text">Where is settings</string>
+        <string name="extension_name">Where is ? Smartwatch</string>
+        
+    <string name="colors">"اللون"</string>
+    <string name="FloorParking">"أرضية"</string>
+    <string name="NumberParking">"عدد"</string>
+    <string name="SectionParking">"قسم"</string> 
+    <string name="NotesParking">"ملاحظات"</string>    
+    
+    
+    <string name="white">"أبيض"</string>
+    <string name="red">"أحمر"</string>
+    <string name="green">"أخضر"</string>
+    <string name="blue">"أزرق"</string>
+    <string name="yellow">"أصفر"</string>
+    <string name="orange">"البرتقالي"</string>    
+    <string name="purple">"أرجواني"</string>
+    <string name="pink">"وردي"</string>
+    <string name="brown">"أسمر"</string>       
+    
+    
+    <string name="sharesubject">"أين هو ... ؟"</string>       
+    <string name="sharevia">"شارك مع"</string>       
+    <string name="sharestring1">"أريد أن أشارك موقع "</string>       
+    <string name="sharestring2">" معك "</string> 
+    <string name="sharestring3">" مع هذا التطبيق: "</string>       
+    
+    
+    
+    <string-array name="layers_array">
+    <item>@string/normal</item>
+    <item>@string/hybrid</item>
+    <item>@string/satellite</item>
+    <item>@string/terrain</item>
+  </string-array>
+</resources>

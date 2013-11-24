@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">"どこにあるの...？"</string>
+    <string name="hello_world">"こんにちは、世界！"</string>
+    <string name="menu_settings">"設定"</string>
+    <string name="Save">"順位を保存します。"</string>
+    <string name="GoTo">"行く"</string>
+    <string name="Parking">"駐車場"</string>
+    <string name="rename">"リネーム"</string>
+    <string name="hybrid">"ハイブリッド"</string>
+    <string name="normal">"ノーマル"</string>
+    <string name="satellite">"衛星"</string>
+    <string name="terrain">"地形"</string>
+    <string name="map_not_ready">"地図にはまだ準備ができていません"</string>
+    <string name="nogps">"あなたのGPSがオフになっている、場所は正確ではありません"</string>
+    <string name="nolocationprovider">"お住まいの地域は、接続状態を確認し、ご利用いただけません"</string>
+    <string name="ok">"保存"</string>
+    <string name="cancel">"キャンセル"</string>
+    <string name="setName">"新しい名前を設定します"</string>
+    <string name="onFoot">"徒歩で"</string>
+    <string name="driving">"運転"</string>
+    <string name="publicTransport">"公共交通機関"</string>
+    <string name="choosetravel">"走行モードを選択してください"</string>
+    <string name="parkingDialog">"駐車場"</string>
+    <string name="widgetname">"駐車ウィジェット"</string>
+     <string name="configuration_text">Where is settings</string>
+        <string name="extension_name">Where is ? Smartwatch</string>
+        
+    
+    <string name="colors">"色"</string>
+    <string name="FloorParking">"フロア"</string>
+    <string name="NumberParking">"数"</string>
+    <string name="SectionParking">"セクション"</string> 
+    <string name="NotesParking">"注釈"</string>    
+    
+    
+    <string name="white">"白"</string>
+    <string name="red">"赤"</string>
+    <string name="green">"グリーン"</string>
+    <string name="blue">"ブルー"</string>
+    <string name="yellow">"黄色"</string>
+    <string name="orange">"オレンジ"</string>    
+    <string name="purple">"紫"</string>
+    <string name="pink">"ピンク"</string>
+    <string name="brown">"ブラウン"</string>       
+    
+    
+    <string name="sharesubject">"どこにあります... ？"</string>       
+    <string name="sharevia">"と共有する"</string>       
+    <string name="sharestring1">"Iは、場所を共有する"</string>       
+    <string name="sharestring2">"あなたと"</string> 
+    <string name="sharestring3">"このアプリでは："</string>       
+    
+    
+    
+    <string-array name="layers_array">
+    <item>@string/normal</item>
+    <item>@string/hybrid</item>
+    <item>@string/satellite</item>
+    <item>@string/terrain</item>
+  </string-array>
+</resources>

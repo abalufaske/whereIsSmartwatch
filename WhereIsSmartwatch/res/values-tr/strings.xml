@@ -1,0 +1,60 @@
+<resources>
+
+    <string name="app_name">"Nerede ...?"</string>
+    
+    <string name="hello_world">"Merhaba dünya!"</string>
+    
+    <string name="menu_settings">"Ayarlar"</string>
+    
+    <string name="Save">"Kaydet"</string>
+    <string name="GoTo">"Git"</string>
+    <string name="Parking">"Otopark"</string>
+    <string name="rename">"Yeniden adlandır"</string>
+    <string name="hybrid">"Melez"</string>
+    <string name="normal">"Normal"</string>
+    <string name="satellite">"Uydu"</string>
+    <string name="terrain">"Arazi"</string>
+    <string name="map_not_ready">"Harita henüz hazır değil"</string>
+    <string name="nogps">"GPS sağlayıcınız kapalı, konumunuz doğru değil"</string>
+    <string name="nolocationprovider">"Konumunuz alınamadı, bağlantınızı kontrol ediniz"</string>
+    <string name="ok">"Kaydet"</string>
+    <string name="cancel">"İptal"</string>
+    <string name="setName">"Yeni isim ver"</string>
+    <string name="onFoot">"Yürüyerek"</string>
+    <string name="driving">"Arabayla"</string>
+    <string name="publicTransport">"Toplu Taşımayla"</string>
+    <string name="choosetravel">"Seyahat modu seçin"</string>
+    <string name="parkingDialog">"Park yeri"</string>
+    <string name="widgetname">"Otopark Aracı"</string>
+     <string name="configuration_text">Where is settings</string>
+        <string name="extension_name">Where is ? Smartwatch</string>
+        
+    <string name="colors">"Renk"</string>
+    <string name="FloorParking">"Zemin"</string>
+    <string name="NumberParking">"Sayı"</string>
+    <string name="SectionParking">"Bölüm"</string> 
+    <string name="NotesParking">"Notlar"</string>
+    
+    <string name="white">"Beyaz"</string>
+    <string name="red">"Kırmızı"</string>
+    <string name="green">"Yeşil"</string>
+    <string name="blue">"Mavi"</string>
+    <string name="yellow">"Sarı"</string>
+    <string name="orange">"Turuncu"</string>    
+    <string name="purple">"Mor"</string>
+    <string name="pink">"Pembe"</string>
+    <string name="brown">"Kahverengi"</string>
+    
+    <string name="sharesubject">"Nerede ... ?"</string>
+    <string name="sharevia">"Ile paylaşın"</string>
+    <string name="sharestring1">"Nerede ... ? uygulaması ile "</string>
+    <string name="sharestring2">" konumunu "</string>
+    <string name="sharestring3">" sizinle paylaşmak istiyorum."</string>
+    
+    <string-array name="layers_array">
+    <item>@string/normal</item>
+    <item>@string/hybrid</item>
+    <item>@string/satellite</item>
+    <item>@string/terrain</item>
+  </string-array>
+</resources>

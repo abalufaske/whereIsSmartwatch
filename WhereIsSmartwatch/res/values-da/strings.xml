@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">"Hvor er ...?"</string>
+    <string name="hello_world">"Hej Verden!"</string>
+    <string name="menu_settings">"Indstillinger"</string>
+    <string name="Save">"Gem Pos."</string>
+    <string name="GoTo">"Go"</string>
+    <string name="Parking">"Parkering"</string>
+    <string name="rename">"Omdøb"</string>
+    <string name="hybrid">"Hybrid"</string>
+    <string name="normal">"Normal"</string>
+    <string name="satellite">"Satellit"</string>
+    <string name="terrain">"Terræn"</string>
+    <string name="map_not_ready">"Kort er ikke klar endnu"</string>
+    <string name="nogps">"Din GPS er slukket, placering er ikke korrekt"</string>
+    <string name="nolocationprovider">"Din placering ikke er tilgængelig, tjek din forbindelse"</string>
+    <string name="ok">"Gem"</string>
+    <string name="cancel">"Annuller"</string>
+    <string name="setName">"Sæt nyt navn"</string>
+    <string name="onFoot">"Til fods"</string>
+    <string name="driving">"Kørsel"</string>
+    <string name="publicTransport">"Offentlig transport"</string>
+    <string name="choosetravel">"Vælg transportform"</string>
+    <string name="parkingDialog">"Parkeringsplads"</string>
+    <string name="widgetname">"Parkering Widget"</string>
+    
+     <string name="configuration_text">Where is settings</string>
+        <string name="extension_name">Where is ? Smartwatch</string>
+        
+    <string name="colors">"Farve"</string>
+    <string name="FloorParking">"Gulv"</string>
+    <string name="NumberParking">"Nummer"</string>
+    <string name="SectionParking">"Sektion"</string> 
+    <string name="NotesParking">"Bemærkninger"</string>    
+    
+    
+    <string name="white">"Hvid"</string>
+    <string name="red">"Rød"</string>
+    <string name="green">"Grøn"</string>
+    <string name="blue">"Blå"</string>
+    <string name="yellow">"Gul"</string>
+    <string name="orange">"Orange"</string>    
+    <string name="purple">"Lilla"</string>
+    <string name="pink">"Pink"</string>
+    <string name="brown">"Brun"</string>       
+    
+    
+    <string name="sharesubject">"Hvor er ... ?"</string>       
+    <string name="sharevia">"Del med"</string>       
+    <string name="sharestring1">"Jeg ønsker at dele placeringen af "</string>       
+    <string name="sharestring2">" med dig "</string> 
+    <string name="sharestring3">" med denne app: "</string>       
+    
+    
+    
+    <string-array name="layers_array">
+    <item>@string/normal</item>
+    <item>@string/hybrid</item>
+    <item>@string/satellite</item>
+    <item>@string/terrain</item>
+  </string-array>
+</resources>

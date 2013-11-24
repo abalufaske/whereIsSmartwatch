@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">"在哪里？"</string>
+    <string name="hello_world">"世界，你好！"</string>
+    <string name="menu_settings">"设置"</string>
+    <string name="Save">"保存位置。"</string>
+    <string name="GoTo">"去"</string>
+    <string name="Parking">"停车"</string>
+    <string name="rename">"重命名"</string>
+    <string name="hybrid">"混合"</string>
+    <string name="normal">"正常"</string>
+    <string name="satellite">"卫星"</string>
+    <string name="terrain">"地形"</string>
+    <string name="map_not_ready">"地图是还没有准备好"</string>
+    <string name="nogps">"你的GPS是关闭的，位置是不准确的"</string>
+    <string name="nolocationprovider">"您现在的位置是不可用，请检查您的连接状态"</string>
+    <string name="ok">"节省"</string>
+    <string name="cancel">"取消"</string>
+    <string name="setName">"设置新名称"</string>
+    <string name="onFoot">"徒步"</string>
+    <string name="driving">"主动"</string>
+    <string name="publicTransport">"公共交通"</string>
+    <string name="choosetravel">"选择出行方式"</string>
+    <string name="parkingDialog">"停车位"</string>
+    <string name="widgetname">"停车小工具"</string>
+    
+     <string name="configuration_text">Where is settings</string>
+        <string name="extension_name">Where is ? Smartwatch</string>
+        
+    <string name="colors">"颜色"</string>
+    <string name="FloorParking">"地板"</string>
+    <string name="NumberParking">"数"</string>
+    <string name="SectionParking">"部分"</string> 
+    <string name="NotesParking">"笔记"</string>    
+    
+    
+    <string name="white">"白"</string>
+    <string name="red">"红色"</string>
+    <string name="green">"绿色"</string>
+    <string name="blue">"蓝色"</string>
+    <string name="yellow">"黄色"</string>
+    <string name="orange">"橙"</string>    
+    <string name="purple">"紫色"</string>
+    <string name="pink">"粉红色"</string>
+    <string name="brown">"棕色"</string>       
+    
+    
+    <string name="sharesubject">"在哪里... ？"</string>       
+    <string name="sharevia">"分享"</string>       
+    <string name="sharestring1">"我想分享的位置"</string>       
+    <string name="sharestring2">"与你"</string> 
+    <string name="sharestring3">"与此应用程序："</string>       
+    
+    
+    
+    <string-array name="layers_array">
+    <item>@string/normal</item>
+    <item>@string/hybrid</item>
+    <item>@string/satellite</item>
+    <item>@string/terrain</item>
+  </string-array>
+</resources>

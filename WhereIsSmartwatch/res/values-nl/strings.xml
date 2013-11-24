@@ -1,0 +1,60 @@
+<resources>
+
+    <string name="app_name">"Waar is ...?"</string>
+    <string name="Save">"Opslaan Pos."</string>
+    <string name="GoTo">"Gaan"</string>
+    <string name="Parking">"Parkeren"</string>
+    <string name="rename">"Naam wijzigen"</string>
+    <string name="hybrid">"Hybride"</string>
+    <string name="normal">"Normaal"</string>
+    <string name="satellite">"Satelliet"</string>
+    <string name="terrain">"Terrein"</string>
+    <string name="map_not_ready">"Kaart is nog niet klaar"</string>
+    <string name="nogps">"Uw GPS is uitgeschakeld, locatie is niet nauwkeurig"</string>
+    <string name="nolocationprovider">"Uw locatie niet beschikbaar is, controleer uw verbinding"</string>
+    <string name="ok">"Sparen"</string>
+    <string name="cancel">"Annuleren"</string>
+    <string name="setName">"Nieuwe naam instellen"</string>
+    <string name="onFoot">"Te voet"</string>
+    <string name="driving">"Rijden"</string>
+    <string name="publicTransport">"Openbaar vervoer"</string>
+    <string name="choosetravel">"Kies rijmodus"</string>
+    <string name="parkingDialog">"Parkeerplaats"</string>
+    <string name="widgetname">"Parkeren Widget"</string>
+     <string name="configuration_text">Where is settings</string>
+        <string name="extension_name">Where is ? Smartwatch</string>
+        
+    
+    <string name="colors">"Kleur"</string>
+    <string name="FloorParking">"Verdieping"</string>
+    <string name="NumberParking">"Aantal"</string>
+    <string name="SectionParking">"Sectie"</string> 
+    <string name="NotesParking">"Aantekeningen"</string>    
+    
+    
+    <string name="white">"Wit"</string>
+    <string name="red">"Rood"</string>
+    <string name="green">"Groen"</string>
+    <string name="blue">"Blauw"</string>
+    <string name="yellow">"Geel"</string>
+    <string name="orange">"Oranje"</string>    
+    <string name="purple">"Paars"</string>
+    <string name="pink">"Roze"</string>
+    <string name="brown">"Bruin"</string>       
+    
+    
+    <string name="sharesubject">"Waar is ... ?"</string>       
+    <string name="sharevia">"Deel met"</string>       
+    <string name="sharestring1">"Ik wil de locatie delen van "</string>       
+    <string name="sharestring2">" met u "</string> 
+    <string name="sharestring3">" met deze app: "</string>       
+    
+    
+    
+   <string-array name="layers_array">
+    <item>@string/normal</item>
+    <item>@string/hybrid</item>
+    <item>@string/satellite</item>
+    <item>@string/terrain</item>
+  </string-array>
+</resources>

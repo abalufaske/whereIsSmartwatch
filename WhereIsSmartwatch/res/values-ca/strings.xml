@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">"On és ...?"</string>
+    <string name="menu_settings">"Ajustaments"</string>
+    <string name="Save">"Guardar Pos"</string>
+    <string name="GoTo">"Ir"</string>
+    <string name="Parking">"Aparcament"</string>
+    <string name="rename">"Canviar nom"</string>
+    <string name="hybrid">"híbrid"</string>
+    <string name="normal">"Normal"</string>
+    <string name="satellite">"satèl·lit"</string>
+    <string name="terrain">"Terreny"</string>
+    <string name="map_not_ready">"El Mapa encara no està llest"</string>
+    <string name="nogps">"El GPS està apagat, la ubicació no és necessària"</string>
+    <string name="nolocationprovider">"La seva ubicació no està disponible, comprovi l'estat de la connectivitat"</string>
+    <string name="ok">"Desar"</string>
+    <string name="cancel">"Cancel·lar"</string>
+    <string name="setName">"Ajustar el nou nom"</string>
+    <string name="onFoot">"A peu"</string>
+    <string name="driving">"Conduint"</string>
+    <string name="publicTransport">"Transport públic"</string>
+    <string name="choosetravel">"Trieu la manera de viatge"</string>
+    <string name="parkingDialog">"Aparcament"</string>
+    <string name="widgetname">"Aparcament Widget"</string>
+    
+     <string name="configuration_text">Where is settings</string>
+        <string name="extension_name">Where is ? Smartwatch</string>
+        
+    <string name="colors">"Color"</string>
+    <string name="FloorParking">"Pis"</string>
+    <string name="NumberParking">"Número"</string>
+    <string name="SectionParking">"Secció"</string> 
+    <string name="NotesParking">"Notes"</string>    
+    
+    
+    <string name="white">"Blanc"</string>
+    <string name="red">"Vermell"</string>
+    <string name="green">"Verd "</string>
+    <string name="blue">"Blau"</string>
+    <string name="yellow">"Groc"</string>
+    <string name="orange">"Taronja"</string>    
+    <string name="purple">"Morat"</string>
+    <string name="pink">"Rosa"</string>
+    <string name="brown">"Marró"</string>       
+    
+        
+    <string name="sharesubject">"On és ...?"</string>       
+    <string name="sharevia">"Compartir amb"</string>       
+    <string name="sharestring1">"Vull compartir la ubicació de "</string>       
+    <string name="sharestring2">" amb vostè "</string> 
+    <string name="sharestring3">" amb aquesta aplicació:"</string>       
+    
+    
+    
+    
+    <string-array name="layers_array">
+   <item>@string/normal</item>
+    <item>@string/hybrid</item>
+    <item>@string/satellite</item>
+    <item>@string/terrain</item>
+  </string-array>
+</resources>
